@@ -28,12 +28,12 @@ body {
   font-size: 5rem;
 }
 .display-2 {
-  font-family: 'League Spartan', sans-serif;
-  font-size: 4rem;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 3rem;
   line-height: 1;
 }
 .display-2 > .mbr-iconfont {
-  font-size: 5rem;
+  font-size: 3.75rem;
 }
 .display-4 {
   font-family: 'League Spartan', sans-serif;
@@ -44,20 +44,20 @@ body {
   font-size: 1.75rem;
 }
 .display-5 {
-  font-family: 'League Spartan', sans-serif;
-  font-size: 2rem;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 1.5rem;
   line-height: 1.5;
 }
 .display-5 > .mbr-iconfont {
-  font-size: 2.5rem;
+  font-size: 1.875rem;
 }
 .display-7 {
   font-family: 'League Spartan', sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   line-height: 1.3;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.75rem;
+  font-size: 1.875rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -76,9 +76,9 @@ body {
     line-height: calc( 1.1 * (2.05rem + (4 - 2.05) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
-    font-size: 3.2rem;
-    font-size: calc( 2.05rem + (4 - 2.05) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.3 * (2.05rem + (4 - 2.05) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 2.4rem;
+    font-size: calc( 1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.3 * (1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
     font-size: 1.12rem;
@@ -86,14 +86,14 @@ body {
     line-height: calc( 1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
-    font-size: 1.6rem;
-    font-size: calc( 1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.2rem;
+    font-size: calc( 1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-7 {
-    font-size: 1.12rem;
-    font-size: calc( 1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.2rem;
+    font-size: calc( 1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 @media (min-width: 992px) and (max-width: 1400px) {
@@ -103,9 +103,9 @@ body {
     line-height: calc( 1.1 * (2.05rem + (4 - 2.05) * ((100vw - 62rem) / (87 - 62))));
   }
   .display-2 {
-    font-size: 3.2rem;
-    font-size: calc( 2.05rem + (4 - 2.05) * ((100vw - 62rem) / (87 - 62)));
-    line-height: calc( 1.3 * (2.05rem + (4 - 2.05) * ((100vw - 62rem) / (87 - 62))));
+    font-size: 2.4rem;
+    font-size: calc( 1.7rem + (3 - 1.7) * ((100vw - 62rem) / (87 - 62)));
+    line-height: calc( 1.3 * (1.7rem + (3 - 1.7) * ((100vw - 62rem) / (87 - 62))));
   }
   .display-4 {
     font-size: 1.12rem;
@@ -113,14 +113,14 @@ body {
     line-height: calc( 1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 62rem) / (87 - 62))));
   }
   .display-5 {
-    font-size: 1.6rem;
-    font-size: calc( 1.35rem + (2 - 1.35) * ((100vw - 62rem) / (87 - 62)));
-    line-height: calc( 1.4 * (1.35rem + (2 - 1.35) * ((100vw - 62rem) / (87 - 62))));
+    font-size: 1.2rem;
+    font-size: calc( 1.175rem + (1.5 - 1.175) * ((100vw - 62rem) / (87 - 62)));
+    line-height: calc( 1.4 * (1.175rem + (1.5 - 1.175) * ((100vw - 62rem) / (87 - 62))));
   }
   .display-7 {
-    font-size: 1.12rem;
-    font-size: calc( 1.14rem + (1.4 - 1.14) * ((100vw - 62rem) / (87 - 62)));
-    line-height: calc( 1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 62rem) / (87 - 62))));
+    font-size: 1.2rem;
+    font-size: calc( 1.175rem + (1.5 - 1.175) * ((100vw - 62rem) / (87 - 62)));
+    line-height: calc( 1.4 * (1.175rem + (1.5 - 1.175) * ((100vw - 62rem) / (87 - 62))));
   }
 }
 /* Buttons */
@@ -569,17 +569,12 @@ a.text-black.active {
   color: #000000 !important;
 }
 a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-caption) {
+  transition: 0.2s;
   position: relative;
-  background-image: transparent;
+  background-image: linear-gradient(currentColor 50%, currentColor 50%);
   background-size: 10000px 2px;
   background-repeat: no-repeat;
-  background-position: 0px 1.2em;
-  background-position: -10000px 1.2em;
-}
-a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-caption):hover {
-  transition: background-position 2s ease-in-out;
-  background-image: linear-gradient(currentColor 50%, currentColor 50%);
-  background-position: 0px 1.2em;
+  background-position: 0 1.2em;
 }
 .nav-tabs .nav-link.active {
   color: #9fe870;
@@ -646,13 +641,13 @@ a:hover {
 }
 .form-control {
   font-family: 'League Spartan', sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   line-height: 1.3;
   font-weight: 400;
   border-radius: 40px !important;
 }
 .form-control > .mbr-iconfont {
-  font-size: 1.75rem;
+  font-size: 1.875rem;
 }
 .form-control:hover,
 .form-control:focus {
@@ -661,12 +656,12 @@ a:hover {
 }
 .form-control:-webkit-input-placeholder {
   font-family: 'League Spartan', sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   line-height: 1.3;
   font-weight: 400;
 }
 .form-control:-webkit-input-placeholder > .mbr-iconfont {
-  font-size: 1.75rem;
+  font-size: 1.875rem;
 }
 blockquote {
   border-color: #9fe870;
@@ -905,7 +900,7 @@ a {
   height: 90px;
   padding: 0.5rem 0.6rem 0.5rem 1rem;
   flex-wrap: nowrap;
-  background: rgba(255, 255, 255, 0.8) !important;
+  background: rgba(0, 0, 0, 0.5) !important;
   left: 0;
   right: 0;
   -webkit-box-pack: justify;
@@ -917,7 +912,7 @@ a {
   align-items: center;
   border-radius: 100vw;
   margin-top: 1rem;
-  background-color: #ffffff;
+  background-color: #000000;
   box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
 }
 @media (max-width: 992px) {
@@ -945,8 +940,8 @@ a {
   border-radius: 1.5rem;
   transition: 0.3s all !important;
   min-width: auto;
-  background: #ffffff;
-  background: rgba(255, 255, 255, 0.8) !important;
+  background: #000000;
+  background: rgba(0, 0, 0, 0.5) !important;
 }
 .cid-vdBreaJSna .nav-item:focus,
 .cid-vdBreaJSna .nav-link:focus {
@@ -1108,7 +1103,7 @@ a {
   padding: 0.667em 1.667em;
 }
 .cid-vdBreaJSna .navbar.navbar-expand-lg .dropdown .dropdown-menu {
-  background: #ffffff;
+  background: #000000;
 }
 .cid-vdBreaJSna .navbar.navbar-expand-lg .dropdown .dropdown-menu .dropdown-submenu {
   margin: 0;
@@ -1272,10 +1267,10 @@ a {
     width: 100%;
     padding: 1rem;
     border-radius: 1.5rem;
-    background: #ffffff;
+    background: #000000;
     opacity: 1;
-    border-color: rgba(255, 255, 255, 0.8) !important;
-    background: rgba(255, 255, 255, 0.8) !important;
+    border-color: rgba(0, 0, 0, 0.5) !important;
+    background: rgba(0, 0, 0, 0.5) !important;
     backdrop-filter: blur(8px);
   }
   .cid-vdBreaJSna .navbar-nav .nav-item .nav-link::after {
@@ -1342,7 +1337,7 @@ a {
 .cid-vejviEUE4N {
   padding-top: 8rem;
   padding-bottom: 2rem;
-  background-color: #edefeb;
+  background-image: url("../../../assets/images/wallpaper-de-estrella-736x1308.webp");
 }
 .cid-vejviEUE4N .mbr-fallback-image.disabled {
   display: none;
@@ -1393,11 +1388,12 @@ a {
 .cid-vejviEUE4N .mbr-text,
 .cid-vejviEUE4N .mbr-section-btn {
   text-align: justify;
+  color: #ffffff;
 }
 .cid-vdBroG0pW8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  background: #edefeb;
+  background-image: url("../../../assets/images/wallpaper-de-estrella-736x1308.webp");
 }
 .cid-vdBroG0pW8 .mbr-fallback-image.disabled {
   display: none;
@@ -1531,6 +1527,120 @@ a {
 .cid-vdBroG0pW8 .content-head {
   max-width: 800px;
 }
+.cid-vel6oIh1A0 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-image: url("../../../assets/images/wallpaper-de-estrella-736x1308.webp");
+}
+.cid-vel6oIh1A0 .item-wrapper img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50% !important;
+}
+.cid-vel6oIh1A0 .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-vel6oIh1A0 .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-vel6oIh1A0 .item-wrapper {
+  background: #ffffff;
+  margin-bottom: 0.5rem;
+  padding: 2.25rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 767px) {
+  .cid-vel6oIh1A0 .item-wrapper {
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .cid-vel6oIh1A0 .item-wrapper {
+    padding: 2rem 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+}
+.cid-vel6oIh1A0 .card-title,
+.cid-vel6oIh1A0 .iconfont-wrapper {
+  color: #000000;
+}
+.cid-vel6oIh1A0 .content-head {
+  max-width: 800px;
+}
+.cid-vel6oIh1A0 .mbr-section-title {
+  color: #ffffff;
+}
+.cid-vel6oIh1A0 .mbr-section-subtitle {
+  color: #ffffff;
+}
+.cid-vel6oIh1A0 .card-text {
+  color: #000000;
+  text-align: justify;
+}
+.cid-vel6oIh1A0 .item-mb {
+  margin-bottom: 2rem;
+}
+@media (max-width: 767px) {
+  .cid-vel6oIh1A0 .item-mb {
+    margin-bottom: 1rem;
+  }
+}
+.cid-vlZ4gAKW8D {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-image: url("../../../assets/images/wallpaper-de-estrella-736x1308.webp");
+}
+.cid-vlZ4gAKW8D .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-vlZ4gAKW8D .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+@media (max-width: 991px) {
+  .cid-vlZ4gAKW8D .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-vlZ4gAKW8D .row {
+  flex-direction: row-reverse;
+}
+.cid-vlZ4gAKW8D .row {
+  align-items: center;
+}
+@media (max-width: 991px) {
+  .cid-vlZ4gAKW8D .image-wrapper {
+    padding: 1rem;
+  }
+}
+@media (min-width: 992px) {
+  .cid-vlZ4gAKW8D .text-wrapper {
+    padding: 0 2rem;
+  }
+}
+.cid-vlZ4gAKW8D .mbr-section-title {
+  color: #ffffff;
+  text-align: center;
+}
+.cid-vlZ4gAKW8D .mbr-text,
+.cid-vlZ4gAKW8D .mbr-section-btn {
+  color: #ffffff;
+}
 .cid-vdBri49PRo {
   display: flex;
   padding-top: 2rem;
@@ -1590,77 +1700,63 @@ a {
 .cid-vdBri49PRo .mbr-section-title {
   color: #ffc091;
 }
-.cid-vel6oIh1A0 {
+.cid-vlYXDwKkuj {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  background-color: #000000;
+  background-image: url("../../../assets/images/wallpaper-de-estrella-736x1308.webp");
 }
-.cid-vel6oIh1A0 .item-wrapper img {
+.cid-vlYXDwKkuj .item-wrapper img {
   width: 80px;
   height: 80px;
   object-fit: cover;
   border-radius: 50% !important;
 }
-.cid-vel6oIh1A0 .mbr-fallback-image.disabled {
-  display: none;
-}
-.cid-vel6oIh1A0 .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-}
-.cid-vel6oIh1A0 .item-wrapper {
+.cid-vlYXDwKkuj .item-wrapper {
   background: #ffffff;
-  margin-bottom: 0.5rem;
+  margin-bottom: 2rem;
   padding: 2.25rem;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .cid-vlYXDwKkuj .item-wrapper {
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+  }
 }
 @media (max-width: 767px) {
-  .cid-vel6oIh1A0 .item-wrapper {
+  .cid-vlYXDwKkuj .item-wrapper {
     padding: 1.5rem;
     margin-bottom: 1rem;
   }
 }
-@media (min-width: 992px) and (max-width: 1200px) {
-  .cid-vel6oIh1A0 .item-wrapper {
-    padding: 2rem 1.5rem;
-    margin-bottom: 0.5rem;
-  }
-}
-.cid-vel6oIh1A0 .card-title,
-.cid-vel6oIh1A0 .iconfont-wrapper {
+.cid-vlYXDwKkuj .card-title,
+.cid-vlYXDwKkuj .iconfont-wrapper {
   color: #000000;
 }
-.cid-vel6oIh1A0 .content-head {
+.cid-vlYXDwKkuj .card-text {
+  color: #000000;
+  text-align: left;
+}
+.cid-vlYXDwKkuj .content-head {
   max-width: 800px;
 }
-.cid-vel6oIh1A0 .mbr-section-title {
+.cid-vlYXDwKkuj .mbr-section-title {
   color: #ffffff;
 }
-.cid-vel6oIh1A0 .mbr-section-subtitle {
+.cid-vlYXDwKkuj .card-title,
+.cid-vlYXDwKkuj .img-wrapper {
+  text-align: center;
+}
+.cid-vlYXDwKkuj .img-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.cid-vlYXDwKkuj .mbr-section-subtitle {
   color: #ffffff;
-}
-.cid-vel6oIh1A0 .card-text {
-  color: #000000;
-}
-.cid-vel6oIh1A0 .item-mb {
-  margin-bottom: 2rem;
-}
-@media (max-width: 767px) {
-  .cid-vel6oIh1A0 .item-mb {
-    margin-bottom: 1rem;
-  }
 }
 .cid-vdBrzFmNBt {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  background-color: #000000;
+  background-image: url("../../../assets/images/wallpaper-de-estrella-736x1308.webp");
 }
 .cid-vdBrzFmNBt .mbr-fallback-image.disabled {
   display: none;
