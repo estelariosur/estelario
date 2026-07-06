@@ -1751,6 +1751,85 @@ a {
 .cid-vdBroG0pW8 .content-head {
   max-width: 800px;
 }
+.cid-voBCOKAw3u {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-image: url("../../../assets/images/wallpaper-de-estrella-736x1308.webp");
+}
+.cid-voBCOKAw3u .mbr-overlay {
+  background: #000000;
+  opacity: 0.6;
+}
+.cid-voBCOKAw3u img,
+.cid-voBCOKAw3u .item-img {
+  width: 100%;
+  height: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.cid-voBCOKAw3u .item:focus,
+.cid-voBCOKAw3u span:focus {
+  outline: none;
+}
+.cid-voBCOKAw3u .item {
+  margin-bottom: 2rem;
+}
+@media (max-width: 767px) {
+  .cid-voBCOKAw3u .item {
+    margin-bottom: 1rem;
+  }
+}
+.cid-voBCOKAw3u .item-content {
+  margin-top: 2rem;
+  padding: 0 2.25rem 2.25rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .cid-voBCOKAw3u .item-content {
+    padding: 0 1.5rem 1.5rem;
+    padding-top: 1rem;
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-voBCOKAw3u .item-content {
+    padding: 2rem 1.5rem;
+    padding-top: 1rem;
+    margin-top: 1rem;
+  }
+}
+.cid-voBCOKAw3u .item-wrapper {
+  position: relative;
+  background: #ffffff;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.cid-voBCOKAw3u .item-wrapper .item-footer {
+  margin-top: auto;
+}
+.cid-voBCOKAw3u .mbr-section-title {
+  color: #ffffff;
+}
+.cid-voBCOKAw3u .item-title {
+  text-align: left;
+}
+.cid-voBCOKAw3u .item-subtitle {
+  text-align: left;
+}
+.cid-voBCOKAw3u .mbr-text,
+.cid-voBCOKAw3u .item .mbr-section-btn {
+  text-align: left;
+}
+.cid-voBCOKAw3u .content-head {
+  max-width: 800px;
+}
+.cid-voBCOKAw3u .mbr-section-subtitle,
+.cid-voBCOKAw3u .mbr-section-head .mbr-section-btn {
+  color: #ffffff;
+}
 .cid-vdBrzFmNBt {
   padding-top: 2rem;
   padding-bottom: 2rem;
